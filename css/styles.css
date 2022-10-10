@@ -11,27 +11,26 @@ body{
     box-sizing: border-box;
     overflow: auto;
 }
-body::-webkit-scrollbar {
-			width: 10px;
-			height: 10px;
+body::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+	background: blue;
 }
+body::-webkit-scrollbar-track{
+	background:rgb(50 79 139);
+} 
+
 body::-webkit-scrollbar-thumb{
-			background: rgb(87,88,90);
-			border-radius: 1px;
+			background: rgb(26 48 95);
+			border-radius: 2px;
 }
-.box-aside::-webkit-scrollbar {
-			width: 10px;
-			height: 10px;
-}
-.box-aside::-webkit-scrollbar-thumb{
-			background: rgb(99 126 187);
-			border-radius: 1px;
+body::-webkit-scrollbar-thumb:hover{
+			background: #546caf;
 }
 .box-aside{
-	height: 100vh;
 	min-height: 100vh;
 	box-sizing: border-box;
-	overflow: auto;
+	overflow: hidden;
 }
 .box-aside:nth-of-type(1){
 		flex-direction: column;
