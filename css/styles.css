@@ -1,0 +1,149 @@
+*{
+
+}
+body{
+	background-image: url(../img/Recurso1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
+}
+body::-webkit-scrollbar {
+			width: 10px;
+			height: 10px;
+}
+body::-webkit-scrollbar-thumb{
+			background: rgb(87,88,90);
+			border-radius: 1px;
+}
+.box-aside::-webkit-scrollbar {
+			width: 10px;
+			height: 10px;
+}
+.box-aside::-webkit-scrollbar-thumb{
+			background: rgb(99 126 187);
+			border-radius: 1px;
+}
+.box-aside{
+	height: 100vh;
+	min-height: 100vh;
+	box-sizing: border-box;
+	overflow: auto;
+}
+.box-aside:nth-of-type(1){
+		flex-direction: column;
+		justify-content: center;
+		background: rgba(250,250,250,.75);
+
+}
+.botones-slider
+{
+	margin:0;
+	width: auto;
+}
+.botones-slider .item-li{
+	border: none;
+	padding: 0;
+	margin: 10px;
+	border-radius: 100%;
+	height: 15px;
+	width: 12px;
+    background: rgb(29,78,143);
+}
+#icono-web{
+	width: 20px;
+	height: 20px;
+}
+#dir-web{
+	color: rgb(29,78,143);
+	margin-left:20px; 
+	text-decoration: none;
+	transform: translateY(-4px);
+}
+.box-aside:nth-of-type(2){
+	background: rgba(29,78,143,.75);
+	box-shadow: -1px 0px 5px 1px rgb(107 103 103 / 75%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.box-logo{
+	text-align: center;
+}
+.box-logo:nth-of-type(1) img{
+	width: 90%;
+	min-width: 150px;
+}
+.box-logo:nth-of-type(2) img{
+	width: 60%;
+	min-width: 150px;
+}
+form{
+
+ color:white;
+}
+fieldset{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+font-size: .8em;
+}
+legend{
+	font-size: 1.2em;
+}
+.inp{
+	width: 90%;
+	margin-left: 5%;
+	background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    color: white;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.inp:focus{
+	background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    color: white;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+
+}
+.box-checks{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.grupo-checks{
+	margin: 5px 0;
+}
+.btn-olvidaste{
+	border:none;
+	background: none;
+	color: white;
+	font-size: 1em;
+	padding: 0;
+}
+.btn-ingreso{
+	/*margin-left: 50%;
+    transform: translateX(-50%);*/
+    background: white;
+    color:rgb(29,78,143);
+    min-width: 100px;
+    font-size: 1em;
+}
+.btn-ingreso:hover{
+	background:none;
+	color: white;
+	border: 1px solid white;
+}
